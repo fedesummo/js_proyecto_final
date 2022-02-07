@@ -1,0 +1,44 @@
+[
+    {
+       "id":0,
+       "marca":"ARTRANS",
+       "potencia":63,
+       "tensPrimNom":13.2,
+       "tensSecVac":0.4,
+       "grupConex":"Dy11",
+       "medioAisl":"ACEITE YPF 64",
+       "medioAislLts":120,
+       "dimensiones":"1650 x 1100 x 1800",
+       "peso":518,
+       "ubicacion":"Sala de Máquinas",
+       "ultRev":"01/12/2021 - 10:24:06"
+    },
+    {
+       "id":1,
+       "marca":"Schneider Electric",
+       "potencia":80,
+       "tensPrimNom":13.2,
+       "tensSecVac":0.231,
+       "grupConex":"Dy11",
+       "medioAisl":"ACEITE YPF 64",
+       "medioAislLts":125,
+       "dimensiones":"1650 x 1100 x 1800",
+       "peso":587,
+       "ubicacion":"Laboratorio de Mediciones",
+       "ultRev":"24/10/2021 - 09:18:56"
+    },
+    {
+       "id":2,
+       "marca":"Tadeo Czerweny",
+       "potencia":500,
+       "tensPrimNom":13.2,
+       "tensSecVac":0.4,
+       "grupConex":"Dy11",
+       "medioAisl":"ACEITE YPF 64",
+       "medioAislLts":380,
+       "dimensiones":"1700 x 1100 x 1900",
+       "peso":1910,
+       "ubicacion":"Portería N° 1",
+       "ultRev":"15/11/2021 - 15:36:18"
+    }
+]

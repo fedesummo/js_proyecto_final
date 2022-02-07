@@ -1,0 +1,57 @@
+@import "bootstrap";
+$mainColor: #3A8FFF;
+
+.bg-mainColor {
+    background-color: $mainColor !important;
+}
+
+.border-mainColor {
+    border-color: $mainColor;
+}
+
+nav {
+    @extend .bg-mainColor;
+    .container-fluid{
+        .navbar-brand {
+            color: white;
+        }
+        #username-container {
+            @extend .fs-5;
+            #username {
+                font-style: italic;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+// Página principal
+#main-page{
+    @extend .d-flex, .flex-column, .justify-content-center, .p-5, .gap-5;
+    article {
+        border: 3px solid $mainColor;
+        border-radius: 21px;
+        #title {
+            @extend .d-flex, .flex-row, .justify-content-center, .gap-3, .bg-mainColor, .align-items-center, .h1, .m-0;
+            color: white;
+            border-radius: 14px;
+            .bi-arrow-up-circle {
+                display: none;
+            }
+        }
+        .grid-container {
+            display: none;
+            @extend .container-fluid, .row, .m-0, .p-4;
+            .card {
+                @extend .col-4, .align-items-center;
+                .card-title {
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
+
+.card-img-top {
+    width: 60%;
+}

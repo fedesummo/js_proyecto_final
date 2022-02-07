@@ -1,0 +1,35 @@
+[
+    {
+       "id":0,
+       "marca":"Atlas Copco",
+       "modelo":"QIS 720",
+       "potencia":200,
+       "tension":"400 / 230",
+       "capacidad":490,
+       "dimensiones":"3450 x 1470 x 1915",
+       "ubicacion":"Playa de Carbón",
+       "ultRev":"01/11/2021 - 11:04:54"
+    },
+    {
+       "id":1,
+       "marca":"SIEMENS",
+       "modelo":"QIS 530",
+       "potencia":300,
+       "tension":"400 / 230",
+       "capacidad":230,
+       "dimensiones":"2900 x 1500 x 1170",
+       "ubicacion":"Oficinas Comerciales",
+       "ultRev":"12/09/2021 - 07:23:14"
+    },
+    {
+       "id":2,
+       "marca":"GENERAC",
+       "modelo":"QIS 145",
+       "potencia":400,
+       "tension":"400 / 230",
+       "capacidad":405,
+       "dimensiones":"3675 x 1400 x 2065",
+       "ubicacion":"Portería N° 3",
+       "ultRev":"30/12/2021 - 22:14:05"
+    }
+]
