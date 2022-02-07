@@ -63,7 +63,7 @@ $(document).ready( function() {
     });
 
     // Obtengo la lista de generadores.
-    $.getJSON('../data/generadores.json', function(response, state) {
+    $.getJSON('https://fedesummo.github.io/js_proyecto_final/data/generadores.json', function(response, state) {
         // Verifico que no se produzcan errores al acceder al archivo. 
         if (state === "success") {
             for (const element of response) {
